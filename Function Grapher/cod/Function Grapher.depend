@@ -1,0 +1,353 @@
+# depslib dependency file v1.0
+1578931088 source:c:\users\victor\documents\proiecte c++\function grapher\main.cpp
+	<iostream>
+	<winbgim.h>
+	<InputManager.h>
+
+1578931315 c:\users\victor\documents\proiecte c++\function grapher\include\inputmanager.h
+	<Meniuri.h>
+	<cstring>
+	<conio.h>
+	<list>
+
+1577971881 source:c:\users\victor\documents\proiecte c++\function grapher\src\test.cpp
+	"Test.h"
+
+1577971881 c:\users\victor\documents\proiecte c++\function grapher\include\test.h
+
+1578925204 c:\users\victor\documents\proiecte c++\function grapher\include\meniuri.h
+	<InputBoxes.h>
+	<list>
+	"../lib/main2.h"
+
+1578931213 c:\users\victor\documents\proiecte c++\function grapher\include\inputboxes.h
+	<string>
+
+1578583438 source:c:\users\victor\documents\proiecte c++\function grapher\lib\dataconversions.cpp
+	"dataConversions.h"
+	<cstring>
+	<cmath>
+
+1578583453 c:\users\victor\documents\proiecte c++\function grapher\lib\dataconversions.h
+
+1578583480 source:c:\users\victor\documents\proiecte c++\function grapher\lib\inputhandler.cpp
+	<iostream>
+	<cstring>
+	"inputHandler.h"
+	"dataConversions.cpp"
+
+1578581136 c:\users\victor\documents\proiecte c++\function grapher\lib\inputhandler.h
+
+1578583438 c:\users\victor\documents\proiecte c++\function grapher\lib\dataconversions.cpp
+	"dataConversions.h"
+	<cstring>
+	<cmath>
+
+1578582424 source:c:\users\victor\documents\proiecte c++\function grapher\lib\scaleandstep.cpp
+	"scaleAndStep.h"
+	"dataConversions.h"
+	<cmath>
+	<iostream>
+
+1578396423 c:\users\victor\documents\proiecte c++\function grapher\lib\scaleandstep.h
+
+1578583420 source:c:\users\victor\documents\proiecte c++\function grapher\lib\main2.cpp
+	<iostream>
+	<cmath>
+	<winbgim.h>
+	<graphics.h>
+	<cstring>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"scaleAndStep.h"
+	"inputHandler.h"
+	"dataConversions.h"
+	"mainLib.h"
+
+1578580273 c:\users\victor\documents\proiecte c++\function grapher\lib\mainlib.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"stack.h"
+	"binaryTree.h"
+	"mathFunctions.h"
+	"variable.h"
+	"converters.h"
+
+1578580240 c:\users\victor\documents\proiecte c++\function grapher\lib\stack.h
+
+1578580255 c:\users\victor\documents\proiecte c++\function grapher\lib\binarytree.h
+
+1578580246 c:\users\victor\documents\proiecte c++\function grapher\lib\mathfunctions.h
+
+1578580221 c:\users\victor\documents\proiecte c++\function grapher\lib\variable.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+
+1578580249 c:\users\victor\documents\proiecte c++\function grapher\lib\converters.h
+
+1578584273 c:\users\victor\documents\proiecte c++\function grapher\lib\main2.h
+	<iostream>
+	<cmath>
+	<winbgim.h>
+	<graphics.h>
+	<cstring>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"scaleAndStep.h"
+	"dataConversions.h"
+	"mainLib.h"
+
+1579112742 source:e:\c++ projects\function grapher\lib\dataconversions.cpp
+	"dataConversions.h"
+	<cstring>
+	<cmath>
+
+1578951946 e:\c++ projects\function grapher\lib\dataconversions.h
+
+1578946970 source:e:\c++ projects\function grapher\lib\scaleandstep.cpp
+	"scaleAndStep.h"
+	"dataConversions.h"
+	<cmath>
+	<iostream>
+
+1578396424 e:\c++ projects\function grapher\lib\scaleandstep.h
+
+1578931090 source:e:\c++ projects\function grapher\main.cpp
+	<iostream>
+	<winbgim.h>
+	<InputManager.h>
+
+1579013252 e:\c++ projects\function grapher\include\inputmanager.h
+	<Meniuri.h>
+	<windows.h>
+	<cstring>
+	<conio.h>
+	<list>
+
+1579205467 e:\c++ projects\function grapher\include\meniuri.h
+	<InputBoxes.h>
+	<list>
+	"../lib/mainGraph.h"
+
+1578931214 e:\c++ projects\function grapher\include\inputboxes.h
+	<string>
+
+1579019336 e:\c++ projects\function grapher\lib\main2.h
+	<iostream>
+	<cmath>
+	<winbgim.h>
+	<graphics.h>
+	<cstring>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"scaleAndStep.h"
+	"dataConversions.h"
+	"mainLib.h"
+	"mathConditions.h"
+
+1578580274 e:\c++ projects\function grapher\lib\mainlib.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"stack.h"
+	"binaryTree.h"
+	"mathFunctions.h"
+	"variable.h"
+	"converters.h"
+
+1578580242 e:\c++ projects\function grapher\lib\stack.h
+
+1578580256 e:\c++ projects\function grapher\lib\binarytree.h
+
+1578580248 e:\c++ projects\function grapher\lib\mathfunctions.h
+
+1578580222 e:\c++ projects\function grapher\lib\variable.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+
+1578580250 e:\c++ projects\function grapher\lib\converters.h
+
+1579036392 e:\c++ projects\function grapher\lib\mathconditions.h
+	"dataConversions.h"
+	<cstring>
+	<cmath>
+	<math.h>
+
+1579011607 source:c:\users\victor\desktop\function grapher\lib\dataconversions.cpp
+	"dataConversions.h"
+	<cstring>
+	<cmath>
+
+1578951945 c:\users\victor\desktop\function grapher\lib\dataconversions.h
+
+1578946969 source:c:\users\victor\desktop\function grapher\lib\scaleandstep.cpp
+	"scaleAndStep.h"
+	"dataConversions.h"
+	<cmath>
+	<iostream>
+
+1578396423 c:\users\victor\desktop\function grapher\lib\scaleandstep.h
+
+1578931088 source:c:\users\victor\desktop\function grapher\main.cpp
+	<iostream>
+	<winbgim.h>
+	<InputManager.h>
+
+1579013251 c:\users\victor\desktop\function grapher\include\inputmanager.h
+	<Meniuri.h>
+	<windows.h>
+	<cstring>
+	<conio.h>
+	<list>
+
+1579018734 c:\users\victor\desktop\function grapher\include\meniuri.h
+	<InputBoxes.h>
+	<list>
+	"../lib/main2.h"
+
+1578931213 c:\users\victor\desktop\function grapher\include\inputboxes.h
+	<string>
+
+1579019335 c:\users\victor\desktop\function grapher\lib\main2.h
+	<iostream>
+	<cmath>
+	<winbgim.h>
+	<graphics.h>
+	<cstring>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"scaleAndStep.h"
+	"dataConversions.h"
+	"mainLib.h"
+	"mathConditions.h"
+
+1578580273 c:\users\victor\desktop\function grapher\lib\mainlib.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"stack.h"
+	"binaryTree.h"
+	"mathFunctions.h"
+	"variable.h"
+	"converters.h"
+
+1578580240 c:\users\victor\desktop\function grapher\lib\stack.h
+
+1578580255 c:\users\victor\desktop\function grapher\lib\binarytree.h
+
+1578580246 c:\users\victor\desktop\function grapher\lib\mathfunctions.h
+
+1578580221 c:\users\victor\desktop\function grapher\lib\variable.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+
+1578580249 c:\users\victor\desktop\function grapher\lib\converters.h
+
+1579036390 c:\users\victor\desktop\function grapher\lib\mathconditions.h
+	"dataConversions.h"
+	<cstring>
+	<cmath>
+	<math.h>
+
+1579011607 source:c:\users\victor\desktop\function grapher backup romanesc\lib\dataconversions.cpp
+	"dataConversions.h"
+	<cstring>
+	<cmath>
+
+1578951945 c:\users\victor\desktop\function grapher backup romanesc\lib\dataconversions.h
+
+1578946969 source:c:\users\victor\desktop\function grapher backup romanesc\lib\scaleandstep.cpp
+	"scaleAndStep.h"
+	"dataConversions.h"
+	<cmath>
+	<iostream>
+
+1578396423 c:\users\victor\desktop\function grapher backup romanesc\lib\scaleandstep.h
+
+1578931088 source:c:\users\victor\desktop\function grapher backup romanesc\main.cpp
+	<iostream>
+	<winbgim.h>
+	<InputManager.h>
+
+1579013251 c:\users\victor\desktop\function grapher backup romanesc\include\inputmanager.h
+	<Meniuri.h>
+	<windows.h>
+	<cstring>
+	<conio.h>
+	<list>
+
+1579018734 c:\users\victor\desktop\function grapher backup romanesc\include\meniuri.h
+	<InputBoxes.h>
+	<list>
+	"../lib/main2.h"
+
+1578931213 c:\users\victor\desktop\function grapher backup romanesc\include\inputboxes.h
+	<string>
+
+1579019335 c:\users\victor\desktop\function grapher backup romanesc\lib\main2.h
+	<iostream>
+	<cmath>
+	<winbgim.h>
+	<graphics.h>
+	<cstring>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"scaleAndStep.h"
+	"dataConversions.h"
+	"mainLib.h"
+	"mathConditions.h"
+
+1578580273 c:\users\victor\desktop\function grapher backup romanesc\lib\mainlib.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"stack.h"
+	"binaryTree.h"
+	"mathFunctions.h"
+	"variable.h"
+	"converters.h"
+
+1578580240 c:\users\victor\desktop\function grapher backup romanesc\lib\stack.h
+
+1578580255 c:\users\victor\desktop\function grapher backup romanesc\lib\binarytree.h
+
+1578580246 c:\users\victor\desktop\function grapher backup romanesc\lib\mathfunctions.h
+
+1578580221 c:\users\victor\desktop\function grapher backup romanesc\lib\variable.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+
+1578580249 c:\users\victor\desktop\function grapher backup romanesc\lib\converters.h
+
+1579036390 c:\users\victor\desktop\function grapher backup romanesc\lib\mathconditions.h
+	"dataConversions.h"
+	<cstring>
+	<cmath>
+	<math.h>
+
+1579077130 source:e:\c++ projects\function grapher\icon.rc
+
+1579205630 e:\c++ projects\function grapher\lib\maingraph.h
+	<iostream>
+	<cmath>
+	<winbgim.h>
+	<graphics.h>
+	<cstring>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	"scaleAndStep.h"
+	"dataConversions.h"
+	"mainLib.h"
+	"mathConditions.h"
+
