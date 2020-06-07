@@ -15,6 +15,6 @@ aplicatiei.
 
 &nbsp; &nbsp; &nbsp; Proiectul a fost realizat in echipa pentru o tema data in anul I, semestrul I, ceilalti membri ai echipei fiind:
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - [@Victorbits](#https://github.com/Victorbits/)
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - [@Victorbits](https://github.com/Victorbits/)
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - [@StefanPEZA](#https://github.com/StefanPEZA) (evaluatorul matematic)
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - [@StefanPEZA](https://github.com/StefanPEZA) (evaluatorul matematic)
