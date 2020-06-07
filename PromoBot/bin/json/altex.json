@@ -1,0 +1,165 @@
+{
+  "link":"https://altex.ro/{}/cpl/filtru/promotii-3803/promotii/price/0-{}/",
+  "link_format":"https://altex.ro/{CATEGORIE}/cpl/filtru/promotii-3803/promotii/price/0-{SUMA_MAXIMA}/",
+  "link_exemplu":"https://altex.ro/laptopuri/cpl/filtru/promotii-3803/promotii/price/0-999999/",
+  "link_img": "https://cdna.altex.ro/resize/media/catalog/product/S/M/2bd48d28d1c32adea0e55139a4e6434a/{}",
+  "link_img_format": "https://cdna.altex.ro/resize/media/catalog/product/S/M/2bd48d28d1c32adea0e55139a4e6434a/{NUME_IMAGINE}",
+  "link_pagina": "https://altex.ro/{}/cpl/filtru/promotii-3803/promotii/price/0-{}/p/{}/",
+  "link_pagina_format": "https://altex.ro/{CATEGORIE}/cpl/filtru/promotii-3803/promotii/price/0-{SUMA_MAXIMA}/p/{PAGINA}/",
+  "link_personalizat": "https://altex.ro/cauta/filtru/promotii-3803/promotii/price/0-{}/?q={}",
+  "link_personalizat_format": "https://altex.ro/cauta/filtru/promotii-3803/promotii/price/0-{SUMA_MAXIMA}/?q={KEYWORDS}",
+  "link_personalizat_exemplu": "https://altex.ro/cauta/filtru/promotii-3803/promotii/price/0-999999/?q=laptop%20lenovo",
+  "link_personalizat_pagina": "https://altex.ro/cauta/filtru/promotii-3803/promotii/price/0-{}/p/{}/?q={}",
+  "link_personalizat_pagina_format": "https://altex.ro/cauta/filtru/promotii-3803/promotii/price/0-{SUMA_MAXIMA}/p/{PAGINA}/?q={KEYWORDS}",
+  "link_personalizat_pagina_exemplu": "https://altex.ro/cauta/filtru/promotii-3803/promotii/price/0-999999/p/2/?q=laptop%20lenovo",
+
+  "pagini":
+  {
+    "tag": "select",
+    "tip": "class",
+    "termen": ["js-trigger-catalog-toolbar-apply-filters"],
+
+    "pagina":
+    {
+      "tag": "option",
+      "tip": "selected",
+      "termen": ""
+    }
+  },
+
+  "item":
+  {
+    "tag":"li",
+    "tip":"class",
+    "termen":["Products-item"]
+  },
+
+  "item_link":
+  {
+    "tag":"h2",
+    "type:":"class",
+    "termen":["Product-nameHeading"],
+
+    "link":
+    {
+      "tag":"a",
+      "arg":"href"
+    }
+  },
+
+  "data":
+  {
+    "titlu":
+    {
+      "tag":"h1",
+      "tip":"itemprop",
+      "termen":"name"
+    },
+
+    "pret":
+    {
+      "nou":
+      {
+        "tag":"div",
+        "tip":"class",
+        "termen":["Price-current"]
+      },
+
+      "vechi":
+      {
+        "tag":"div",
+        "tip":"class",
+        "termen":["Price-old"]
+      },
+
+      "discount":
+      {
+        "tag":"div",
+        "tip":"class",
+        "termen":["Badge-reducere"]
+      }
+    },
+
+    "rating":
+    {
+      "rata":
+      {
+        "tag":"div",
+        "tip":"class",
+        "termen":["Review-totalScore"]
+      },
+
+      "review-uri":
+      {
+        "tag":"div",
+        "tip":"class",
+        "termen":["Tabs-counter"]
+      }
+    },
+
+    "descriere":
+    {
+      "tag":"div",
+      "tip":"itemprop",
+      "termen":"description"
+    },
+
+    "specs":
+    {
+      "container":
+      {
+        "tag":"div",
+        "tip":"class",
+        "termen":["Specs"]
+      },
+
+      "titlu":
+      {
+        "tag":"h3",
+        "tip":"class",
+        "termen":["Specs-title"]
+      },
+
+      "tabla":
+      {
+        "tag":"table",
+        "tip":"class",
+        "termen":["Specs-table"],
+
+        "info":
+        {
+          "tag":"td",
+          "tip":"class",
+          "termen":["Specs-cell"]
+        }
+      }
+    },
+
+    "imagini":
+    {
+      "matrice":
+      {
+        "tag": "div",
+        "tip": "class",
+        "termen": ["slick-slide", "slick-active", "slick-current"],
+
+        "tag2": "img",
+        "arg": "src"
+      },
+
+      "tag": "ul",
+      "tip": "class",
+      "termen":["slick-dots"],
+
+      "tag2": "img",
+      "arg": "src",
+
+      "eroare":
+      {
+        "tag": "img",
+        "tip": "alt",
+        "termen": "Pagina nu a fost gasita"
+      }
+    }
+  }
+}

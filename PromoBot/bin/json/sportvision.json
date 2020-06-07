@@ -1,0 +1,119 @@
+{
+  "link":"https://www.sportvision.ro/{}/promotii/",
+  "link_format":"https://www.sportvision.ro/{CATEGORIE}/promotii/",
+  "link_exemplu":"https://www.sportvision.ro/pantofi-sport/barbati/promotii/",
+  "link_pagina": "https://www.sportvision.ro/{}/promotii/page-{}/",
+  "link_pagina_format": "https://www.sportvision.ro/{CATEGORIE}/promotii/page-{PAGINA -1}",
+  "link_personalizat": "https://www.sportvision.ro/produse/promotii/?search={}",
+  "link_personalizat_format": "https://www.sportvision.ro/produse/promotii/?search={KEYWORDS}",
+  "link_personalizat_exemplu": "https://www.sportvision.ro/produse/promotii/?search=ghete%20nike",
+  "link_personalizat_pagina": "https://www.sportvision.ro/produse/promotii/page-{}/?search={}",
+  "link_personalizat_pagina_format": "https://www.sportvision.ro/produse/promotii/page-{PAGINA -1}/?search={KEYWORDS}",
+
+  "pagini":
+  {
+    "tag": "ul",
+    "tip": "class",
+    "termen": ["pagination"],
+
+    "tag2": "a"
+  },
+
+  "container":
+  {
+    "tag":"div",
+    "tip":"class",
+    "termen":["product-listing-items"]
+  },
+
+  "produs":
+  {
+    "tag":"div",
+    "tip":"class",
+    "termen":["product-item-overlay"],
+
+    "link":
+    {
+      "tag":"a",
+      "arg":"href"
+    }
+  },
+
+  "data":
+  {
+    "titlu":
+    {
+      "tag":"h1",
+      "tip":"itemprop",
+      "termen":"name"
+    },
+
+    "pret":
+    {
+      "nou":
+      {
+        "tag":"div",
+        "tip":"class",
+        "termen":["product-price","pull-left"]
+      },
+
+      "vechi":
+      {
+        "tag":"div",
+        "tip":"class",
+        "termen":["product-prev-price", "product-oldprice", ""]
+      },
+
+      "vechi2":
+      {
+        "tag":"div",
+        "tip":"class",
+        "termen":["product-prev-price", "product-pricewithoutdiscount", ""]
+      },
+
+      "discount":
+      {
+        "tag":"span",
+        "tip":"class",
+        "termen":["product-price-saved-value"]
+      }
+    },
+
+    "descriere":
+    {
+      "tag":"div",
+      "tip":"itemprop",
+      "termen":"description"
+    },
+
+    "structura":
+    {
+      "tag":"div",
+      "tip":"itemprop",
+      "termen":"structure"
+    },
+
+    "specs":
+    {
+      "tag":"div",
+      "tip":"class",
+      "termen":["specificatoin-wrapper"],
+
+      "tag2":"tbody",
+      "tag3":"td"
+    },
+
+    "imagini":
+    {
+      "tag":"div",
+      "tip":"class",
+      "termen":["product-images-thumbs","ease-slow"],
+
+      "imagine":
+      {
+        "tag":"img",
+        "arg":"src"
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "link":"https://www.lavas.ro/collections/reduceri",
+  "produs_link":"https://www.lavas.ro{}",
+
+  "container":
+  {
+    "tag":"div",
+    "tip":"id",
+    "termen":"products-viewmode"
+  },
+
+  "produs":
+  {
+    "tag":"a",
+    "tip":"class",
+    "termen":["detail_view"],
+
+    "arg":"href"
+  },
+
+  "data":
+  {
+    "titlu":
+    {
+      "tag":"div",
+      "tip":"class",
+      "termen":["product-name"]
+    },
+
+    "pret":
+    {
+      "nou":
+      {
+        "tag":"p",
+        "tip":"class",
+        "termen":["special-price"]
+      },
+
+      "vechi":
+      {
+        "tag":"p",
+        "tip":"class",
+        "termen":["old-price"]
+      }
+    },
+
+    "descriere":
+    {
+      "tag":"div",
+      "tip":"class",
+      "termen":["panel-body"]
+    },
+
+    "imagine":
+    {
+      "tag":"a",
+      "tip":"class",
+      "termen":["cloud-zoom-gallery", "colorbox-group", "cboxElement"],
+
+      "arg":"href"
+    }
+  }
+}

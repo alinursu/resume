@@ -1,0 +1,72 @@
+<!---
+Autor: Ursu Alin
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="../data/style.css">
+    <title>{}</title>
+  </head>
+  <body>
+    <div class="upper">
+      <p class="title">{}</p>
+      <br class="upper-br">
+    </div>
+    <div>
+      <div class="info">
+        <div class="image"> <img src='../data/images/{}' width="{}px" height="{}px"> </div>
+        <div class="price">
+          <p class="old-price"><del>Pret vechi: {}</del></p>
+          <p class="new-price">{} (-{})</p>
+          <p class="rating">Rating: {}<img src="../data/star.png" width="16px" height="16px">({} reviews)</p>
+        </div>
+        <div class="gift">
+            <p style="font-weight:bold;font-size:18px;margin:0;padding:0;border:0;color:blue;">Cadou:</p>
+            <div class="gift-image"> <img src="../data/images/{}" width="{}px" height="{}px">
+            </div>
+            <div class="gift-info">
+              <p>{}</p>
+              <p>{}</p>
+              <a href="{}">Vezi detalii</a> </div>
+            </div>
+        </div>
+        <div class="description">
+        ##########SPLIT##########
+          <p style="font-weight: bold;">{}</p>
+          <p> {}</p>
+          ##########SPLIT##########
+        </div>
+      </div>
+      <div class="images">
+      ##########SPLIT##########
+	    <img src='../data/images/{}' width="{}px" height="{}px">
+	    ##########SPLIT##########
+      </div>
+      <div class="specifications">
+      ##########SPLIT##########
+        <div class="specs">
+          <p class="specs-title"> {} </p>
+          <table style="width: 100%; padding:2px; background: #b0b0b0;" border="1">
+            <tbody>
+            ##########SPLIT##########
+              <tr>
+                <th>{}</th>
+                <th>{}</th>
+              </tr>
+              ##########SPLIT##########
+            </tbody>
+          </table>
+        </div>
+        ##########SPLIT##########
+      </div>
+    </div>
+    <p class="date"> Data: {} </p>
+    <footer class="bottom">	
+      <p class="author"> Ursu Alin </p>
+      <p class="copyright"> </p>
+      <p class="link"> <a href="{}">Link direct catre Produs</a> </p>
+    </footer>
+  </body>
+</html>

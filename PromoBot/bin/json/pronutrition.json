@@ -1,0 +1,131 @@
+{
+  "link":"https://www.pronutrition.ro/promotii.html",
+  "link_pagina": "https://www.pronutrition.ro/promotii.html?p={}",
+  "link_pagina_format": "https://www.pronutrition.ro/promotii.html?p={PAGINA}",
+
+  "pagini":
+  {
+    "tag": "ul",
+    "tip": "class",
+    "termen": ["items", "pages-items"],
+
+    "tag2": "a"
+  },
+
+  "container":
+  {
+    "tag":"ol",
+    "tip":"class",
+    "termen":["products", "list", "items", "product-items", "clearfix"]
+  },
+
+  "produs":
+  {
+    "tag":"a",
+    "tip":"class",
+    "termen":["action", "primary", "btn", "btn-blue"],
+
+    "arg":"href"
+  },
+
+  "data":
+  {
+    "titlu":
+    {
+      "tag":"span",
+      "tip":"itemprop",
+      "termen":"name"
+    },
+
+    "pret":
+    {
+      "nou":
+      {
+        "tag":"span",
+        "tip":"data-price-type",
+        "termen":"finalPrice"
+      },
+
+      "vechi":
+      {
+        "tag":"span",
+        "tip":"data-price-type",
+        "termen":"oldPrice",
+
+        "valoare_veche":
+        {
+          "tag":"span",
+          "tip":"class",
+          "termen":["price"]
+        }
+      },
+
+      "discount":
+      {
+        "tag":"div",
+        "tip":"class",
+        "termen":["product-label", "sale-label"]
+      }
+    },
+
+    "rating":
+    {
+      "rata":
+      {
+        "tag":"div",
+        "tip":"class",
+        "termen":["rating-result"],
+
+        "arg":"title"
+      },
+
+      "review-uri":
+      {
+        "tag":"span",
+        "tip":"itemprop",
+        "termen": "reviewCount"
+      }
+    },
+
+    "descriere":
+    {
+      "tag": "div",
+      "tip": "id",
+      "termen": "description",
+
+      "ingrediente":
+      {
+        "tag": "div",
+        "tip": "id",
+        "termen": "ingredient"
+      },
+
+      "mod_administrare":
+      {
+        "tag": "div",
+        "tip": "id",
+        "termen": "usage"
+      }
+    },
+
+    "specs":
+    {
+      "tag": "table",
+      "tip": "class",
+      "termen": ["nutrition-table"],
+
+      "titlu": {"tag": "th"},
+      "tag2": "td"
+    },
+
+    "imagine":
+    {
+      "tag": "div",
+      "tip": "class",
+      "termen": ["product", "media"],
+
+      "tag2": "script"
+    }
+
+  }
+}

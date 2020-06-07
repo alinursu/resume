@@ -1,0 +1,192 @@
+{
+  "link":"http://www.cel.ro/{}/",
+  "link_format":"http://www.cel.ro/{CATEGORIE}/",
+  "link_exemplu":"http://www.cel.ro/laptop-laptopuri/",
+  "link_pagina": "http://www.cel.ro/{}/0a-{}",
+  "link_pagina_format": "http://www.cel.ro/{CATEGORIE}/0a-{PAGINA}",
+  "link_personalizat": "http://www.cel.ro/cauta/{}/",
+  "link_personalizat_format": "http://www.cel.ro/cauta/{KEYWORDS}/",
+  "link_personalizat_exemplu": "http://www.cel.ro/cauta/laptop+lenovo/",
+  "link_personalizat_pagina": "http://www.cel.ro/cauta/{}/0j-{}",
+  "link_personalizat_pagina_format": "http://www.cel.ro/cauta/{KEYWORDS}/0j-{PAGINA}",
+
+  "pagini":
+  {
+    "tag": "div",
+    "tip": "class",
+    "termen": ["pageresults"],
+
+    "tag2": "a"
+  },
+
+  "box":
+  {
+    "tag":"div",
+    "tip":"class",
+    "termen":["productlisting"]
+  },
+
+  "produs":
+  {
+    "tag":"div",
+    "tip":"class",
+    "termen":["productListingWrapper"],
+
+    "promo":
+    {
+      "tag": "div",
+      "tip": "class",
+      "termen": ["badge", "grey", "discount"]
+    }
+  },
+
+  "href":
+  {
+    "tag":"a",
+    "tip":"class",
+    "termen":["productListing-data-b", "product_link", "product_name"],
+
+    "arg":"href"
+  },
+
+  "data":
+  {
+    "titlu":
+    {
+      "tag":"h2",
+      "tip":"itemprop",
+      "termen":"name"
+    },
+
+    "pret":
+    {
+      "nou":
+      {
+        "tag":"span",
+        "tip":"itemprop",
+        "termen":"price"
+      },
+
+      "vechi":
+      {
+        "tag":"div",
+        "tip":"class",
+        "termen":["c_online"]
+      }
+    },
+
+    "rating":
+    {
+      "rata":
+      {
+        "tag":"strong",
+        "tip":"itemprop",
+        "termen":"ratingValue"
+      },
+
+      "review-uri":
+      {
+        "tag":"span",
+        "tip":"itemprop",
+        "termen":"ratingCount"
+      }
+    },
+
+    "descriere":
+    {
+      "tag":"div",
+      "tip":"class",
+      "termen":["descriere"]
+    },
+
+    "specs":
+    {
+      "tag":"table",
+      "tip":"class",
+      "termen":["caractTable"],
+
+      "elem":
+      {
+        "tag":"tr",
+        "tip":"class",
+
+        "spec":
+        {
+          "tag":"td",
+          "tip":"class",
+          "termen":["charName"]
+        }
+      }
+    },
+
+    "imagini":
+    {
+      "tag":"div",
+      "tip":"class",
+      "termen":["bigImage"],
+
+      "img_tag":"img",
+      "arg":"src",
+
+      "secundare":
+      {
+        "link":
+        {
+          "tag":"a",
+          "arg":"href"
+        },
+
+        "tag":"div",
+        "tip":"class",
+        "termen":["poze_imagini"],
+
+        "img_tag":"img",
+        "arg":"src"
+      }
+    },
+
+    "cadou":
+    {
+      "tag":"div",
+      "tip":"class",
+      "termen":["prod_bonus"],
+
+      "titlu":
+      {
+        "tag":"div",
+        "tip":"class",
+        "termen":["bonusname", ""]
+      },
+
+      "pret":
+      {
+        "tag":"span",
+        "tip":"class",
+        "termen":["specialColor"]
+      },
+
+      "titlu_farapret":
+      {
+        "tag":"div",
+        "tip":"class",
+        "termen":["bonusname","noPrice"]
+      },
+
+      "link":
+      {
+        "tag":"a",
+        "arg":"href"
+      },
+
+      "imagine":
+      {
+        "tag": "div",
+        "tip": "class",
+        "termen": ["bigImage"],
+
+        "tag2": "img",
+        "arg": "src"
+      }
+    }
+  }
+}

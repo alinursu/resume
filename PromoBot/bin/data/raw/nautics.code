@@ -1,0 +1,44 @@
+<!---
+Autor: Ursu Alin
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="../data/style.css">
+    <title>{}</title>
+  </head>
+  <body>
+    <div class="upper">
+      <p class="title">{}</p>
+      <br class="upper-br">
+    </div>
+    <div>
+      <div class="info">
+        <div class="image"> <img src='../data/images/{}' width="{}px" height="{}px"> </div>
+        <div class="price">
+          <p class="old-price"><del>Pret vechi: {}</del></p>
+          <p class="new-price">{} (-{})</p>
+        </div>
+        <div class="description">
+        ##########SPLIT##########
+          <p style="font-weight: bold;">{}</p>
+          <p> {}</p>
+          ##########SPLIT##########
+        </div>
+      </div>
+      <div class="images">
+      ##########SPLIT##########
+	    <img src='../data/images/{}' width="{}px" height="{}px">
+	    ##########SPLIT##########
+      </div>
+    </div>
+    <p class="date"> Data: {} </p>
+    <footer class="bottom">	
+      <p class="author"> Ursu Alin </p>
+      <p class="copyright"> </p>
+      <p class="link"> <a href="{}">Link direct catre Produs</a> </p>
+    </footer>
+  </body>
+</html>

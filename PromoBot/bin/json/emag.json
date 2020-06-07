@@ -1,0 +1,176 @@
+{
+  "link":"https://www.emag.ro/{}/promotii/pret,intre-0-si-{}/c",
+  "link_format":"https://www.emag.ro/{CATEGORIE}/promotii/pret,intre-0-si-{PRET_MAXIM}/c",
+  "link_pagina": "https://www.emag.ro/{}/pret,intre-0-si-{}/sort-discountdesc/p{}/c",
+  "link_pagina_format":"https://www.emag.ro/{CATEGORIE}/pret,intre-0-si-{PRET-MAXIM}/sort-discountdesc/p{PAGINA}/c",
+  "link_personalizat": "https://www.emag.ro/search/{}?ref=effective_search",
+  "link_personalizat_format": "https://www.emag.ro/search/{KEYWORDS}?ref=effective_search",
+  "link_personalizat_exemplu": "https://www.emag.ro/search/lenovo%20husa?ref=effective_search",
+  "link_personalizat_pagina": "https://www.emag.ro/search/{}/p{}",
+  "link_personalizat_pagina_format": "https://www.emag.ro/search/{KEYWORDS}/p{PAGINA}",
+
+  "pagini":
+  {
+    "tag": "ul",
+    "tip": "id",
+    "termen": "listing-paginator",
+
+    "tag2": "a"
+  },
+
+  "box":
+  {
+    "tag":"div",
+    "tip":"class",
+    "termen":["card-section-wrapper", "js-section-wrapper"]
+  },
+
+  "detectare_reducere":
+  {
+    "tag":"span",
+    "tip":"class",
+    "termen":["product-this-deal"]
+  },
+
+  "href":
+  {
+    "tag":"a",
+    "tip":"class",
+    "termen":["product-title", "js-product-url"]
+  },
+
+  "data":
+  {
+    "titlu":
+    {
+      "tag":"h1",
+      "tip":"class",
+      "termen":["page-title"]
+    },
+
+    "pret":
+    {
+      "vechi":
+      {
+        "tag":"p",
+        "tip":"class",
+        "termen":["product-old-price"]
+      },
+
+      "nou":
+      {
+        "tag":"p",
+        "tip":"class",
+        "termen":["product-new-price"]
+      }
+    },
+
+    "rating":
+    {
+      "rata":
+      {
+        "tag":"span",
+        "tip":"class",
+        "termen":["star-rating-text", "gtm_rp101318"]
+      },
+
+      "review-uri":
+      {
+        "tag":"a",
+        "tip":"class",
+        "termen":["gtm_rp160118"]
+      }
+    },
+
+    "descriere":
+    {
+      "tag":"div",
+      "tip":"id",
+      "termen":"description-body"
+    },
+
+    "specs":
+    {
+      "tag":"div",
+      "tip":"class",
+      "termen":["col-md-12"],
+
+      "box":
+      {
+        "tag":"div",
+        "tip":"class",
+        "termen":["pad-top-sm"],
+
+        "titlu":
+        {
+          "tag":"p",
+          "tip":"class",
+          "termen":["text-uppercase"]
+        },
+
+        "spec_titlu":
+        {
+          "tag":"td",
+          "tip":"class",
+          "termen":["col-xs-4", "text-muted"]
+        },
+
+        "spec_info":
+        {
+          "tag":"td",
+          "tip":"class",
+          "termen":["col-xs-8"]
+        }
+      }
+    },
+
+    "imagine":
+    {
+      "tag":"a",
+      "tip":"class",
+      "termen":["thumbnail", "product-gallery-image", "gtm_rp130018"],
+
+      "link":"href"
+    },
+
+    "cadou":
+    {
+      "tag":"div",
+      "tip":"class",
+      "termen":["row", "table-layout", "pad-btm-xs"],
+
+      "text":
+      {
+        "tag":"p",
+        "tip":"class",
+        "termen":["product-title"]
+      },
+
+      "link":
+      {
+        "tag":"p",
+        "tip":"class",
+        "termen":["small"],
+
+        "href":
+        {
+          "tag":"a",
+          "arg":"href"
+        }
+      },
+
+      "pret":
+      {
+        "tag":"span",
+        "tip":"class",
+        "termen":["small","strong"]
+      },
+
+      "imagine":
+      {
+        "tag":"img",
+        "arg":"src"
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "link_principal":"https://constantinnautics.ro/bratari-nautice/sale",
+  "link": "https://constantinnautics.ro/winter-sale",
+
+  "container":
+  {
+    "tag":"ul",
+    "tip":"class",
+    "termen":["row"]
+  },
+
+  "produs":
+  {
+    "tag":"div",
+    "tip":"class",
+    "termen":["padding","product-wrap"]
+  },
+
+  "href":
+  {
+    "link_tag":"a",
+    "arg":"href"
+  },
+
+  "discount":
+  {
+    "tag":"div",
+    "tip":"class",
+    "termen":["discounted_bullet"]
+  },
+
+  "data":
+  {
+    "titlu":
+    {
+      "tag":"div",
+      "tip":"class",
+      "termen":["col-sm-5"]
+    },
+
+    "pret":
+    {
+      "nou":
+      {
+        "tag":"span",
+        "tip":"class",
+        "termen":["price-new"]
+      },
+
+      "vechi":
+      {
+        "tag":"span",
+        "tip":"class",
+        "termen":["price-old"]
+      }
+    },
+
+    "descriere":
+    {
+      "tag":"div",
+      "tip":"class",
+      "termen":["tab-content"]
+    },
+
+    "imagine":
+    {
+      "tag":"ul",
+      "tip":"id",
+      "termen":"image-additional",
+
+      "img_tag":"img",
+      "arg":"src"
+    }
+  }
+}
