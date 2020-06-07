@@ -1,59 +1,26 @@
 ## PromoBot
 
-**© 2019 Ursu Stefan-Alin All Rights Reserved**
+**© 2019 Ursu Stefan-Alin Toate drepturile sunt rezervate**
 
 
 
-&nbsp; &nbsp; &nbsp; This was the project I created in order to get the Professional Skills Certificate.
-    
-&nbsp; &nbsp; &nbsp; This is a web scrapper with whom you can search for limited sales in specific websites. The search process use
-informations given by the user such as category or keywords, maximum price and number of pages that will be scrapped.
+&nbsp; &nbsp; &nbsp; Acesta este proiectul creat pentru a obtine Certificatul de Comepente Digitale de la finalul clasei a 12-a.
 
-&nbsp; &nbsp; &nbsp; Also, the project have a complex algorithm who can help the user to avoid fake sales: in a database, the program save
-every product scrapped from an website, alongside his price. If the same product, from the same website, will be found
-in the future at a higher price, the newly created HTML file will contain a message saying that the same product was found
-at a lower price in a certain date.
+&nbsp; &nbsp; &nbsp; **PromoBot** este o aplicatie Desktop scrisa in Python prin care un utilizator poate cauta produse aflate la reducere intr-un anumit magazin online, cautare efectuata dupa anumite criterii (cuvinte cheie, categorii de produse, pret maxim, etc.). Aplicatia are suport atat pentru Windows, cat si pentru Linux.
 
-&nbsp; &nbsp; &nbsp; **Some features might not work if it's not updated. (some HTML tags might need to be changed)**
+&nbsp; &nbsp; &nbsp; De asemenea, proiectul contine un algortim complex prin care informeaza utilizatorul in cazul in care produsul cautat are un pret fals redus: proiectul contine o baza de date prin care aplicatia salveaza informatii din fiecare cautare efectuata. Daca acelasi produs gasit la reducere pe acelasi website a fost gasit in trecut la reducere la un pret mai mic, fisierul HTML proaspat creat va contine un mesaj prin care utilizatorul este informat.
+
+&nbsp; &nbsp; &nbsp; **Unele parti ale aplicatiei pot sa nu functioneze deoarece nu proiectul nu a fost actualizat (unele tag-uri HTML folosite in cautari ar putea avea nevoie de modificari)**
     
 &nbsp; &nbsp; &nbsp; PromoBot.py:
     
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - the main program
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - programul principal
         
 &nbsp; &nbsp; &nbsp; Documentatie.odt:
     
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - the documentation about this project (why I chose it, statistics, what I used, how to use the program, pieces
-        of code, etc.)
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - documentatia proiectului (de ce l-am ales, statistici, programe folosite in dezvoltarea proiectului, cum se foloseste aplicatia, bucati de cod, etc.)
         
 &nbsp; &nbsp; &nbsp; config.cfg:
     
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - a config file
-        
-&nbsp; &nbsp; &nbsp; scripts/scrappers/*:
-    
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - the script with whom the program is scrapping a certain website
-        
-&nbsp; &nbsp; &nbsp; scripts/db.py:
-    
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - the script used to communicate with the database
-        
-&nbsp; &nbsp; &nbsp; scripts/debug.py:
-    
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - the script used to create and write in the log file
-        
-&nbsp; &nbsp; &nbsp; scripts/htmlcreator.py:
-    
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - the script used to create the HTML files using informations scrapped from websites
-        
-&nbsp; &nbsp; &nbsp; scripts/json.py:
-    
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - a class with whom you can read json files
-        
-&nbsp; &nbsp; &nbsp; scripts/scrapper.py:
-    
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - the class used for scrapping websites
-        
-&nbsp; &nbsp; &nbsp; scripts/utils.py:
-    
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - some functions that are used often while the program is running
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - fisier config (se pot seta diferite lucruri)
         
