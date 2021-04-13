@@ -1,19 +1,16 @@
 ## Function Grapher
 
-**© 2019 Toate drepturile sunt rezervate**
+**© 2019**
 
 
 
-&nbsp; &nbsp; &nbsp; **Function Grapher** este o aplicatie Desktop pentru Windows, scrisa in C/C++, cu o interfata grafica simpla
-si intuitiva. Aceasta are un caracter educational, permitand vizualiarea graficului oricarei functii matematice, pentru un domeniu dat.
+&nbsp; &nbsp; &nbsp; **Function Grapher** is a Windows Desktop application written in C++, containing a minimalistic and intuitive GUI. The goal of the application is to help students to visualise any mathematical function's graph, for a given domain.
 
-&nbsp; &nbsp; &nbsp; Aplicatia suporta functiile matematice ce contin operatii aritmetice (adunare, scadere, etc.) si functiile
-logaritm, radical, exponential, trigonometrice (sin, cos, etc.), cat si constantele matematice (PI, constanta lui Euler, etc.).
+&nbsp; &nbsp; &nbsp; The application can show the graph of mathematical functions which contains arithmetic operations, logarithmic, square root, exponential and trigonometric functions, and mathematical constants (PI, Euler's constant, etc.).
 
-&nbsp; &nbsp; &nbsp; In folderul proiectului se afla si un fisier .mp4, numit "FILM EXEMPLU", prin care se exemplifica functionalitatea 
-aplicatiei.
+&nbsp; &nbsp; &nbsp; A demo of the app can be seen in the "FILM EXEMPLU.mp4" file.
 
-&nbsp; &nbsp; &nbsp; Proiectul a fost realizat in echipa pentru o tema data in anul I, semestrul I, ceilalti membri ai echipei fiind:
+&nbsp; &nbsp; &nbsp; The project was made as a team, for a homework, the other members of the team being:
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - [@Victorbits](https://github.com/Victorbits/)
 
