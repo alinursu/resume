@@ -1,8 +1,0 @@
-C:\Users\ursua\Desktop\FitnHealthy\FitnHealthy.Exceptions\bin\Debug\netcoreapp3.1\FitnHealthy.Exceptions.deps.json
-C:\Users\ursua\Desktop\FitnHealthy\FitnHealthy.Exceptions\bin\Debug\netcoreapp3.1\FitnHealthy.Exceptions.dll
-C:\Users\ursua\Desktop\FitnHealthy\FitnHealthy.Exceptions\bin\Debug\netcoreapp3.1\FitnHealthy.Exceptions.pdb
-C:\Users\ursua\Desktop\FitnHealthy\FitnHealthy.Exceptions\obj\Debug\netcoreapp3.1\FitnHealthy.Exceptions.csprojAssemblyReference.cache
-C:\Users\ursua\Desktop\FitnHealthy\FitnHealthy.Exceptions\obj\Debug\netcoreapp3.1\FitnHealthy.Exceptions.AssemblyInfoInputs.cache
-C:\Users\ursua\Desktop\FitnHealthy\FitnHealthy.Exceptions\obj\Debug\netcoreapp3.1\FitnHealthy.Exceptions.AssemblyInfo.cs
-C:\Users\ursua\Desktop\FitnHealthy\FitnHealthy.Exceptions\obj\Debug\netcoreapp3.1\FitnHealthy.Exceptions.dll
-C:\Users\ursua\Desktop\FitnHealthy\FitnHealthy.Exceptions\obj\Debug\netcoreapp3.1\FitnHealthy.Exceptions.pdb

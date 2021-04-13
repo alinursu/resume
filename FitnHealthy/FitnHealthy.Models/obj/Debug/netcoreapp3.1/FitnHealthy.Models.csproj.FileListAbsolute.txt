@@ -1,8 +1,0 @@
-C:\Users\ursua\Desktop\FitnHealthy\FitnHealthy.Models\bin\Debug\netcoreapp3.1\FitnHealthy.Models.deps.json
-C:\Users\ursua\Desktop\FitnHealthy\FitnHealthy.Models\bin\Debug\netcoreapp3.1\FitnHealthy.Models.dll
-C:\Users\ursua\Desktop\FitnHealthy\FitnHealthy.Models\bin\Debug\netcoreapp3.1\FitnHealthy.Models.pdb
-C:\Users\ursua\Desktop\FitnHealthy\FitnHealthy.Models\obj\Debug\netcoreapp3.1\FitnHealthy.Models.csprojAssemblyReference.cache
-C:\Users\ursua\Desktop\FitnHealthy\FitnHealthy.Models\obj\Debug\netcoreapp3.1\FitnHealthy.Models.AssemblyInfoInputs.cache
-C:\Users\ursua\Desktop\FitnHealthy\FitnHealthy.Models\obj\Debug\netcoreapp3.1\FitnHealthy.Models.AssemblyInfo.cs
-C:\Users\ursua\Desktop\FitnHealthy\FitnHealthy.Models\obj\Debug\netcoreapp3.1\FitnHealthy.Models.dll
-C:\Users\ursua\Desktop\FitnHealthy\FitnHealthy.Models\obj\Debug\netcoreapp3.1\FitnHealthy.Models.pdb
