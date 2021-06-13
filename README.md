@@ -39,10 +39,11 @@ or how the data is stored. In the repository you can also find an example of ano
     </ul>
     <br>
     <h3>About the projects from this repository</h3>
-    <ol>
+    <ul>
         <li><a href="https://github.com/ursualin7890/resume/tree/master/Function%20Grapher">Function Grapher</a>, a visualiser for
 mathematical functions.</li>
         <li><a href="https://github.com/ursualin7890/resume/tree/master/PromoBot">PromoBot</a>, a discounted products searcher.</li>
-        <li><a href="">Discord Bot</a>, TBA</li>
-    </ol>
+        <li><a href="https://github.com/ursualin7890/resume/tree/master/BacHelp%20Discord%20Bot">BacHelp Discord Bot</a>, a Discord bot used for a
+better Discord server management.</li>
+    </ul>
 </body>

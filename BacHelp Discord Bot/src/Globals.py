@@ -3,7 +3,7 @@ from discord.ext import commands
 
 
 GUILD_ID = 824556584834564116 # Id-ul server-ului
-TOKEN = "ODM1Nzk0NDc4NjE5MDMzNjEw.YIUoRA.Q79hqRcmsdORJDf27t72jTcDow8"
+TOKEN = "DISCORD-BOT-TOKEN"
 
 COMMAND_PREFIX = "!"
 BOT = commands.Bot(command_prefix=COMMAND_PREFIX, intents=discord.Intents().all())
